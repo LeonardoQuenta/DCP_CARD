@@ -1,0 +1,3094 @@
+/* === Fuentes === */
+
+
+@font-face {
+    font-family: 'Brandon-Grotesque-Black';
+    src: local('BrandonGrotesque'), url('../fonts/BrandonGrotesquey/brandon-grotesque-black.ttf') format('truetype');
+    src: url("../fonts/BrandonGrotesque/brandon-grotesque-black.woff") format("woff"), /* Modern Browsers */
+         url("../fonts/BrandonGrotesque/brandon-grotesque-black.ttf")  format("truetype"), /* Safari, Android, iOS */
+
+}
+
+@font-face {
+    font-family: 'BrandonGrotesque-Black';
+    src: local('Brandon'), url('../fonts/Brandon/Brandon_blk.ttf') format('truetype');
+    src: url("../fonts/Brandon/Brandon_blk.woff") format("woff"), /* Modern Browsers */
+         url("../fonts/Brandon/Brandon_blk.ttf")  format("truetype"), /* Safari, Android, iOS */
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.card .content {
+    flex: 1 1 auto;
+}
+
+
+
+body {
+    font-family: "BrandonGrotesque-Light" !important;
+}
+
+html,body{
+    overflow-x: hidden !important;
+    width: 100%
+}
+
+#formLanguage > span.select2 {
+    width: 50% !important;
+    font-family: 'BrandonGrotesque-Black' !important;
+}
+
+#select2-selectLanguage-results > li:nth-child(1),
+#select2-selectLanguage-results > li:nth-child(2){
+    font-family: 'BrandonGrotesque-Black' !important;
+}
+
+
+body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div.row.language-currency > label {
+    color: #FFF;
+    font-family: 'BrandonGrotesque-Black' !important;
+}
+
+body > div.profile-page.tx-13.m-b-50 > div > div > div > div > a:nth-child(1) > div,
+body > div.profile-page.tx-13.m-b-50 > div > div > div > div > a:nth-child(2) > div {
+    background: #3C82FF;
+    color: #FFF;
+    border-radius: 25px;
+    font-size: 11px !important;
+    padding-bottom: 13px;
+    padding-top: 13px;
+    width: 130px;
+    margin-bottom: 0px;
+    margin-top: 10%;
+    font-weight: 700;
+}
+body > div.profile-page.tx-13.m-b-50 > div > div > div > div > a:nth-child(1) > div:hover,
+body > div.profile-page.tx-13.m-b-50 > div > div > div > div > a:nth-child(2) > div:hover {
+    background: #fff;
+    outline: 1px solid #3C82FF;
+}
+
+body > div.profile-page.tx-13.m-b-50 > div > div > div > div > a:nth-child(2) > div > span:hover,
+body > div.profile-page.tx-13.m-b-50 > div > div > div > div > a:nth-child(1) > div > span:hover{
+    color: #3C82FF !important;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
+    color: #3C89FF !important;
+}
+
+nav.navbar.navbar-expand-lg.navbar-dark.bg-dark {
+    display: none !important;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    background-color: #3C82FF !important;
+    border-color: #3C82FF !important;
+}
+
+p.white-space {
+    border-top: 1px solid #000 !important;
+    font-size: 17px !important;
+    margin-bottom: 30px !important;
+    white-space: inherit !important;
+    padding-top: 9px;
+    font-family: 'BrandonGrotesque-Light';
+    font-weight: bold;
+}
+.fa.fa-tiktok {
+    background: url(../images/tik-tok.png) no-repeat;
+    width: 35px;
+    height: 38px;
+    color: #fff !important;
+}
+
+#v-pills-tabContent {
+    margin-left: 3%;
+    margin-top: -1.5%;
+}
+
+#v-pills-personal > div > label > h4,
+#v-pills-contact > div > label > h4,
+#v-pills-extras > div > label > h4 {
+    font-size: 16px;
+    font-family: 'BrandonGrotesque-Black' !important;
+    text-transform: uppercase;
+    margin-bottom: 2px;
+}
+
+#v-pills-personal > div:nth-child(4) > p.white-space.f-14,
+#v-pills-enterprise > div:nth-child(4) > p.white-space.f-14 {
+    margin-bottom: 12px !important;
+}
+
+#v-pills-enterprise > div > label > h4{
+    font-size: 16px;
+    font-family: 'BrandonGrotesque-Black' !important;
+    text-transform: uppercase;
+    margin-bottom: 2px;
+}
+
+#v-pills-personal-tab > i, #v-pills-enterprise-tab > i, #v-pills-contact-tab > i, #v-pills-rrss-tab > i, #v-pills-extras-tab > i,#v-pills-qr-tab > i{
+    margin-right: 16px !important;
+}
+
+body > footer > div > div:nth-child(3) > div.footer-icons {
+    display: none;
+}
+body > div.page-body.m-b-50 > div > div > div > div > div > div.card-body.card-activate-account > label.select-language-activate-account {
+    font-family: 'BrandonGrotesque-Black' !important;
+    font-size: 14px;
+}
+.nav-tabs .nav-link:not(.active):hover, .nav-tabs .nav-link:not(.active):focus {
+    border-color: #3C82FF !important;
+    background: #FFF  !important;
+    color: #3C82FF  !important;
+}
+
+.border-right {
+    border-right-style: groove;
+    line-height: 2;
+    width: 330px;
+}
+
+button#v-pills-personal-tab:not(.active), button#v-pills-enterprise-tab:not(.active), button#v-pills-contact-tab:not(.active), button#v-pills-rrss-tab:not(.active), button#v-pills-extras-tab:not(.active), button#v-pills-qr-tab:not(.active) {
+    background-color: #fff;
+    color:#000;
+}
+
+.line-height{
+    line-height: 25pt;
+}
+
+.dropdown .dropdown-toggle {
+    background-color: rgb(35 31 32);
+    color: #fff;
+    border-radius: 10px;
+    padding: 5px 10px;
+    width: 210px;
+    text-align: left;
+}
+
+.navbar-mobile,
+.btn-presentation{
+    display: none;
+}
+
+body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div.cover-body.d-flex.justify-content-between.align-items-center > div > div > div:nth-child(2) > table {
+    color: #FFF;
+    font-weight: 400;
+    font-size: 18px;
+    font-weight: 900;
+}
+body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div > div > div > div.col-lg-5.col-md-12.col-sm-12.col-xs-12 > table > tbody > tr:nth-child(1) > td:nth-child(1){
+    width: 88px;
+}
+body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div > div > div > div.col-lg-5.col-md-12.col-sm-12.col-xs-12 > table > tbody > tr:nth-child(1) > td:nth-child(2){
+    font-weight: 100 !important;
+    font-family: 'BrandonGrotesque-Light' !important;
+    font-size: 21px;
+}
+body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div > div > div > div.col-lg-5.col-md-12.col-sm-12.col-xs-12 > table > tbody > tr:nth-child(2) > td:nth-child(2){
+    font-weight: 100 !important;
+    font-family: 'BrandonGrotesque-Light' !important;
+    font-size: 21px;
+}
+body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div > div > div > div.col-lg-5.col-md-12.col-sm-12.col-xs-12 > table > tbody > tr:nth-child(3) > td:nth-child(2) > a{
+    font-weight: 100 !important;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'BrandonGrotesque-Light' !important;
+    font-size: 21px;
+}
+body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div > div > div > div.col-lg-5.col-md-12.col-sm-12.col-xs-12 > table > tbody > tr:nth-child(4) > td:nth-child(2) > a{
+    font-weight: 100 !important;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'BrandonGrotesque-Light' !important;
+    font-size: 21px;
+}
+
+.profile-page .profile-header .cover .gray-shade {
+    position: absolute;
+    top: 43%;
+    left: 0;
+    width: 100%;
+    height: 270px;
+    z-index: 1;
+    background: #f3f3f300;
+}
+
+.profile-page .profile-header .header-links {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    background: #fff;
+    border-radius: 0 0 0.25rem 0.25rem;
+}
+
+.profile-page .profile-header .header-links ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.profile-page .profile-header .header-links ul li a {
+    color: #000;
+    transition: all 0.2s ease;
+}
+
+.profile-page .profile-header .header-links ul li:hover,
+.profile-page .profile-header .header-links ul li.active {
+    color: #727cf5;
+}
+
+.profile-page .profile-header .header-links ul li:hover a,
+.profile-page .profile-header .header-links ul li.active a {
+    color: #727cf5;
+}
+
+.profile-page .profile-body .left-wrapper .social-links a {
+    width: 30px;
+    height: 30px;
+}
+
+.profile-page .profile-body .right-wrapper .latest-photos>.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.profile-page .profile-body .right-wrapper .latest-photos>.row>div {
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+#collapsibleNavbar {
+    margin-left: 10%;
+    padding-bottom: 10px;
+}
+
+.navbar-nav .nav-item .nav-link {
+    font-size: 13px;
+    padding: 10px 20px;
+    color: #E6E6E6;
+}
+
+#collapsibleNavbar > ul.navbar-nav.ml-auto > li:nth-child(4) {
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.bg-dark {
+    background-color: #231F20 !important;
+    color: #fff !important;
+}
+
+body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div.cover-body.d-flex.justify-content-between.align-items-center > div > div.col-md-2.navbar-actions > a.btn.btn-icon-text.btn-store-contact.btn-lg.btn-block.m-b-50 {
+    font-size: 11px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+body > div.page-body.m-b-50 > div > div > div > div > div > div > div.col-xs-3.col-md-3.col-sm-3.col-xl-3.border-left.presentation > div > div > button {
+    background: #3C89FF;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 10px;
+}
+
+body > div.page-body.m-b-50 > div > div > div > div > div > div > div.col-xs-3.col-md-3.col-sm-3.col-xl-3.border-left.presentation {
+    width: 230px;
+    height: 355px;
+}
+
+body > div.page-body.m-b-50 > div > div > div > div > div > div > div.col-xs-3.col-md-3.col-sm-3.col-xl-3.border-left.presentation > div {
+    border: none !important;
+    height: inherit;
+    border-radius: initial;
+    /* background-color: #232021; */
+    color: #Fff;
+    background: url(../images/obten.jpg);
+    background-position: bottom;
+    background-size: cover;
+}
+
+body > div.page-body.m-b-50 > div > div > div > div > div > div > div.col-xs-3.col-md-3.col-sm-3.col-xl-3.border-left.presentation > div > div > p {
+    margin-top: 55px;
+}
+
+.footer-page {
+    flex: 0 0 auto;
+    position: relative;
+    background-color: #231f20;
+    box-shadow: 0 1px 1px 0 #231f20;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding: 30px 95px;
+}
+
+/* The company logo */
+.footer-page h3 {
+    color: #ffffff;
+    font: normal 36px 'Cookie', cursive;
+    margin: 0;
+}
+
+.footer-page h3 span {
+    color: #5383d3;
+}
+
+
+.footer-page-account{
+    flex: 0 0 auto;
+    position: absolute;
+    bottom: 0;
+    background-color: #231f20;
+    box-shadow: 0 1px 1px 0 #231f20;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    padding: 20px 0px;
+}
+
+
+.nav-center {
+    text-align: center;
+}
+
+.nav-center span {
+    color: #666;
+}
+
+.nav-center ul.nav {
+    display: inline-block;
+}
+
+.nav-center ul.nav li {
+    display: inline a;
+}
+
+/* td {
+    word-break: break-all;
+} */
+
+/*END FOOTER*/
+.social:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+.social {
+    -webkit-transform: scale(0.8);
+    /* Browser Variations: */
+
+    -moz-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+}
+
+/*
+Multicoloured Hover Variations
+*/
+#social-fb:hover {
+    color: #3B5998;
+}
+
+#social-tw:hover {
+    color: #4099FF;
+}
+
+#social-ld:hover {
+    color: #4c90dd;
+}
+
+#social-em:hover {
+    color: #f39c12;
+}
+
+#social-pi:hover {
+    color: #e60023;
+}
+
+#social-you:hover {
+    color: #e60023;
+}
+#social-tik:hover{
+    color: #000000;
+}
+#social-ws:hover {
+    color: #228f0c;
+}
+#social-ins:hover {
+    color: #da1678;
+}
+/*
+Iconos del footer
+*/
+.social-footer {
+    color: #A4A3A1;
+}
+
+.social-footer:hover {
+    color: #3C89FF;
+    transition: color 0.9s linear 0.2s;
+}
+
+#form_store_contact > div.modal-footer.center-content > div > button,
+button#btn-send-success {
+    background: #3C82FF;
+    color: #fff;
+    border-radius: 15px !important;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 8px 30px;
+}
+
+#form_store_contact > div.modal-footer.center-content > div > button:hover,
+button#btn-send-success:hover {
+    background: #fff;
+    color: #3C82FF;
+    border-color: #3C82FF;
+}
+
+#collapsibleNavbar > ul.nav-menus.d-flex > li > a {
+    color: #858c93;
+}
+
+#collapsibleNavbar > ul.nav-menus.d-flex > li > a:hover {
+    color: #3C89FF;
+}
+
+#storeContact > div > div > div,
+#interChangeContact > div > div > div {
+    background: #231F20;
+    color: #fff !important;
+    border-top-left-radius: 17px;
+    border-top-right-radius: 17px;
+}
+
+#modalLabelContact,
+#modalLabelInter {
+    font-weight: 200;
+    text-align: center !important;
+    margin: auto;
+}
+
+#form_store_contact > div.modal-body > div > table > tbody > tr > td > span {
+    color: #707070;
+    margin-left: 45px;
+}
+
+#form_interchange > div.modal-body > div.col-md-8.offset-md-2.m-t-20.alert.dark > p > span {
+    color: #707070;
+}
+
+#form_interchange > div.modal-body > div.col-md-8.offset-md-2 {
+    margin-top: 20px;
+}
+
+body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div.cover-body.d-flex.justify-content-between.align-items-center > div > div > div > h1 {
+    font-weight: 100 !important;
+}
+
+body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div.cover-body.d-flex.justify-content-between.align-items-center > div > div > p {
+    display: none;
+}
+
+body > div.profile-page.tx-13.m-b-50 > div > div > div > div {
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+/* ================================== */
+/* ====== Bloque Vista datos principales ======= */
+
+body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div.cover-body.d-flex.justify-content-between.align-items-center > div > div > div.col-8.col-sm-6 > div > div:nth-child(2) > a{
+    background: #3C82FF;
+    color: #FFF;
+    border-radius: 25px;
+    font-size: 12px !important;
+    width: 210px;
+    margin-bottom: 0px;
+    font-weight: 700;
+    margin-top: 10%;
+    padding-bottom: 13px;
+    padding-top: 13px;
+    font-family: 'BrandonGrotesque-Black';
+
+}
+
+body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div.cover-body.d-flex.justify-content-between.align-items-center > div > div > div.col-8.col-sm-6 > div > div:nth-child(2) > a:hover {
+    background: #3C82FF;
+    color: #FFF;
+    border: 1px solid #fff;
+}
+
+body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div.cover-body.d-flex.justify-content-between.align-items-center > div > div > div.col-8.col-sm-6 > div > div:nth-child(3) > a{
+    background: #3C82FF;
+    color: #FFF;
+    border-radius: 25px;
+    font-size: 12px !important;
+    padding-bottom: 13px;
+    padding-top: 13px;
+    width: 210px;
+    margin-bottom: 0px;
+    margin-top: 10%;
+    font-weight: 700;
+    margin-left: -16%;
+    font-family: 'BrandonGrotesque-Black';
+}
+
+body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div.cover-body.d-flex.justify-content-between.align-items-center > div > div > div.col-8.col-sm-6 > div > div:nth-child(3) > a:hover{
+    background: #3C82FF;
+    color: #FFF;
+    border: 1px solid #fff;
+}
+
+
+body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div.cover-body.d-flex.justify-content-between.align-items-center > div > div > div.col-8.col-sm-6 > div > div:nth-child(2) > a:hover,
+body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div.cover-body.d-flex.justify-content-between.align-items-center > div > div > div.col-8.col-sm-6 > div > div:nth-child(3) > a:hover{
+    background: #FFF;
+    color: #3C82FF;
+}
+
+h4 {
+    font-family: 'BrandonGrotesque-Black' !important;
+    text-transform: uppercase;
+}
+
+#form_store_contact > div.modal-body > div > .info-desktop {
+    margin-left: 19%;
+    font-family: 'BrandonGrotesque-Black' !important;
+}
+
+.info-desktop {
+    /* display: inline-block; */
+    display: grid;
+}
+
+
+.info-mobile {
+    display: none;
+}
+
+.text-underline {
+    text-decoration: none !important;
+    color: #fff !important;
+}
+
+#v-pills-enterprise > div:nth-child(3) > p > a {
+    text-decoration: none !important;
+    color: #000 !important;
+}
+
+#collapseTwo > div > div:nth-child(3) > p > a{
+    text-decoration: none !important;
+    color: #000 !important;
+}
+
+body > div.profile-page.tx-13.m-b-50 > div > div > div > div > a {
+    position: absolute;
+    right: 4%;
+    display: flex;
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'BrandonGrotesque-Black';
+    top: 4%;
+}
+
+@keyframes efectcheckbox{
+    0%{
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.85);
+    }
+    100%{
+        box-shadow: 0 0 0 25px rgba(0, 0, 0, 0);
+    }
+}
+
+.efect-checkbox{
+    background-color: #b2acd26b;
+    border-color: rgb(60, 130, 255) !important;
+    transition: ease 10s;
+    animation: efectcheckbox 2.2s;
+}
+/* ------------------------------------------------------------- */
+@media (min-width: 220px) and (max-width: 575px) {
+
+    .footer-page-account{
+        flex: 0 0 auto;
+        position: absolute;
+        bottom: 0;
+        background-color: #231f20;
+        box-shadow: 0 1px 1px 0 #231f20;
+        box-sizing: border-box;
+        width: 100%;
+        text-align: left;
+        padding: 10px 10px;
+    }
+
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div.row.language-currency {
+        width: 45%;
+        margin-left: 60%;
+    }
+
+    #formLanguage > span.select2 {
+        width: 85% !important;
+        font-family: 'BrandonGrotesque-Black' !important;
+    }
+
+    .tabs-desktop,
+    .store-desktop,
+    .interchange-desktop,
+    .btn-whatsapp-profile{
+        display: none;
+    }
+
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div {
+        background-repeat: no-repeat;
+        object-fit: cover;
+        object-position: center center;
+        max-width: 100%;
+    }
+
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div {
+        background-size: 100%;
+    }
+
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div.default {
+        background-size: 100% 100%;
+    }
+
+}
+
+@media (min-width: 575px) and (max-width: 900px) {
+
+
+    #formLanguage > span.select2 {
+        width: 70% !important;
+        font-family: 'BrandonGrotesque-Black' !important;
+    }
+}
+
+@media only screen and (max-width: 284px) {
+
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div > a {
+        position: absolute;
+        right: 8%;
+        display: flex;
+        margin: auto;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: 'BrandonGrotesque-Black';
+        top: 1%;
+        width: 50px;
+    }
+
+    .company-logo {
+        top: 62%;
+        left: 64%;
+        border-radius: 50%;
+        display: block;
+        margin: auto;
+        position: absolute;
+        z-index: 1;
+        width: 75px;
+        height: 75px;
+        object-fit: cover;
+    }
+
+    table.table-info-desktop {
+        display: none;
+    }
+
+    table.table-info-mobile {
+        display: block;
+    }
+
+    .tabs-desktop{
+        display:none;
+    }
+
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div > div > div > div.col-lg-4.offset-lg-2.col-md-12.col-sm-12.col-xs-12 > div{
+        margin-right: 0px !important;
+    }
+
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div > div > div > div.col-lg-4.offset-lg-2.col-md-12.col-sm-12.col-xs-12 > div > img.profile-pic {
+        border-radius: 50%;
+        height: 170px;
+        width: 170px;
+        display: block;
+        margin: auto;
+        left: 0px;
+        z-index: 1;
+        object-fit: cover;
+    }
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div.cover-body.d-flex.justify-content-between.align-items-center > div > div > div > h1 {
+        font-weight: 100 !important;
+        font-size: 30px;
+    }
+
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div > div > div > div.col-lg-5.col-md-12.col-sm-12.col-xs-12 {
+        margin-top: 12%;
+    }
+
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div.cover-body.d-flex.justify-content-between.align-items-center > div > div > div:nth-child(2) > table {
+        color: #FFF;
+        font-weight: 400;
+        font-size: 15px;
+        font-weight: 900;
+    }
+
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div > div > div.row.main{
+        margin: auto;
+        margin-top: 12%;
+    }
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div > div > div > div.col-lg-5.col-md-12.col-sm-12.col-xs-12 > a.btn.btn-icon-text.btn-store-contact.store-desktop{
+        background: #3C82FF;
+        color: #FFF;
+        font-size: 11px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        border-radius: 25px;
+        font-weight: 900;
+        font-family: 'BrandonGrotesque-Black' !important;
+        width: 170px;
+        -webkit-appearance: none !important;
+        -webkit-border-radius: 25px !important;
+        -moz-border-radius: 25px !important;
+        -webkit-padding-top: 8px;
+        -webkit-padding-bottom: 8px;
+        -moz-border-padding-top: 8px;
+        -moz-border-padding-bottom: 8px;
+        margin: auto;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        text-align: center;
+        display: block;
+    }
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div > div > div > div.col-lg-5.col-md-12.col-sm-12.col-xs-12 > a.btn.btn-icon-text.btn-interchange-contact.interchange-desktop{
+        background: #3C82FF;
+        color: #FFF;
+        border-radius: 25px;
+        width: 170px;
+        font-size: 11px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        font-weight: 900;
+        font-family: 'BrandonGrotesque-Black' !important;
+        -webkit-appearance: none !important;
+        -webkit-border-radius: 25px !important;
+        -moz-border-radius: 25px !important;
+        -webkit-padding-top: 8px;
+        -webkit-padding-bottom: 8px;
+        -moz-border-padding-top: 8px;
+        -moz-border-padding-bottom: 8px;
+        margin: auto;
+        text-align: center;
+        display: block;
+        margin-bottom: 5%;
+    }
+    #form_store_contact > div.modal-footer.center-content {
+        border: none;
+    }
+
+    #form_store_contact > div.modal-body > div > table > tbody > tr:nth-child(2n+2) > td {
+        background: #F6F6F6;
+        border-radius: 25px;
+        width: 40%;
+        padding: 4px 10px 4px 20px;
+    }
+
+    #storeContact > div > div > div, #interChangeContact > div > div > div {
+        background: #231F20;
+        color: #fff !important;
+        border-radius: 17px;
+    }
+
+    #form_store_contact > div.modal-body > div > table > tbody > tr > td > span {
+        color: #000000 !important;
+        margin-left: 0px !important;
+    }
+
+    button.accordion-button {
+        text-align: center !important;
+        background: #fff;
+        color: #3C82FF !important;
+        border-color: #3C82FF !important;
+        border-radius: 25px !important;
+        text-transform: uppercase;
+        font-family: 'BrandonGrotesque-Black' !important;
+    }
+
+    .accordion-button.collapsed {
+        border-bottom-width: thin !important;
+    }
+
+    .accordion-button:not(.collapsed) {
+        color: #fff !important;
+        background-color: #3C82FF;
+    }
+
+    .accordion-button:not(.collapsed)::after,
+    .accordion-button::after {
+        background-color: #fff !important;
+        border-radius: 25px;
+    }
+
+    .accordion-button:focus {
+        z-index: 3;
+        /* border-color: #86b7fe; */
+        border-color: none !important;
+        outline: 0;
+        -webkit-box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%);
+        box-shadow: none;
+    }
+    /* BORDER DE ANCHURA */
+    .accordion-collapse {
+        border: solid rgb(0 0 0 / 4%);
+        border-width: 0 1px;
+    }
+
+    #collapseOne > div > div.row {
+        margin-top: 7%;
+    }
+
+    #collapseOne > div.accordion-body {
+    padding: 1rem 1.25rem;
+    }
+
+    #collapseTwo > div.accordion-body {
+        padding: 1rem 1.25rem !important;
+    }
+
+    #collapseTwo > div > div.row {
+        margin-top: 7%;
+    }
+
+    #collapseTwo > div > div.row > label {
+        margin-bottom: 0px;
+    }
+
+    #collapseThree > div > div > p > a:nth-child(9) {
+        word-break: normal;
+        white-space: normal;
+        /* line-height: 0.5 !important; */
+    }
+
+    #collapseThree > div > div > p {
+        line-height: 2 !important;
+    }
+    #collapseThree > div > div > label {
+        margin-bottom: 0px;
+    }
+
+    #collapseThree > div {
+        padding: 8% 1.25rem;
+    }
+
+    #pills-icontabContent > div.tab-pane.fade.show.active {
+        font-size: 20px;
+        color: #231F20;
+        line-height: 2;
+    }
+
+    #pills-icontabContent > div.tab-pane.fade.show.active > div > label > h4 {
+        color: #707070;
+    }
+
+    p.white-space {
+        /* white-space: pre-line;
+        word-break: break-all; */
+        word-break: break-word;
+        color: #000000;;
+        font-size: 22px !important;
+        margin-bottom: 0px !important;
+        font-family: 'BrandonGrotesque-Light' !important;
+        font-weight: bold;
+    }
+
+    #pills-icontabContent > div.tab-pane.fade.show.active > div {
+        margin-top: 20px;
+    }
+
+    #pills-icontab > li > a {
+        font-size: 12px;
+    }
+    #pills-icontab > li:nth-child(4) {
+        margin-left: 23px;
+        width: 36%;
+    }
+
+    #pills-icontab > li:nth-child(5) {
+        width: 55%;
+    }
+    .nav {
+        display: flex;
+        text-align: center;
+        border-bottom: none;
+    }
+
+
+    .nav i {
+        margin-right: 0px;
+    }
+
+    .nav-pills li {
+        width: 32%;
+    }
+
+
+    #collapsibleNavbar > ul.nav-menus.d-flex > li {
+        position: relative;
+        text-align: center;
+        display: block;
+        margin: auto;
+    }
+
+    .dropdown .dropdown-toggle {
+        background-color: rgb(35 31 32);
+        color: #fff;
+        border-radius: 10px;
+        padding: 5px 10px;
+        text-align: center;
+    }
+
+    #collapsibleNavbar > ul.nav-menus.d-flex > li > ul {
+        inset: 67px auto auto 30px !important;
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+    }
+
+    body > nav > div > a {
+        margin-left: 20px;
+    }
+
+    body > div.page-body.m-b-50 > div > div > div > div.col-sm-12.tabs-mobile > div > div {
+        margin-top: 35px;
+        margin-left: 0px;
+    }
+
+    #collapsibleNavbar {
+        margin-left: 0% !important;
+        padding-bottom: 0px !important;
+    }
+
+    body > div.profile-page.tx-13.m-b-50 {
+        margin-bottom: 0px !important;
+    }
+
+    h4 {
+        font-size: 19px;
+    }
+}
+
+@media (min-width: 285px) and (max-width: 392px) {
+    /* body{
+        background: #d400ff;
+    } */
+
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div > a {
+        position: absolute;
+        right: 3%;
+        display: flex;
+        margin: auto;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: 'BrandonGrotesque-Black';
+        top: 0%;
+        /* width: 50px; */
+    }
+
+    table.table-info-desktop {
+        display: none;
+    }
+
+    table.table-info-mobile {
+        display: block;
+    }
+
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div > div > div > div.col-lg-5.col-md-12.col-sm-12.col-xs-12{
+        margin-top: 10%;
+    }
+
+    .info-desktop {
+        display: none;
+    }
+
+    .info-mobile {
+        display: inline-block;
+    }
+
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div > div > p{
+        font-size: 16px;
+        color: #fff;
+        margin: -10px 0px 35px 0px;
+        font-weight: bold !important;
+        font-family: 'BrandonGrotesque-Light' !important;
+    }
+
+
+    h4 {
+        font-size: 19px;
+    }
+
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div.cover-body.d-flex.justify-content-between.align-items-center > div > div > p {
+        display: block;
+    }
+
+    .navbar-nav .nav-item .nav-link {
+        font-size: 13px;
+        padding: 7px 20px;
+        color: #E6E6E6;
+    }
+
+    body > nav > div > div.navbar-collapse.collapse:not(.show) {
+        display: inherit;
+        position: absolute;
+        left: -5%;
+        top: 30%;
+    }
+
+    #select-information {
+        appearance: auto !important;
+        background: #5580C1;
+        color: #fff;
+        border-radius: 25px;
+        padding: 15px 0px 15px 11px;
+    }
+
+    #storeContact > div > div > div, #interChangeContact > div > div > div {
+        background: #231F20;
+        color: #fff !important;
+        border-radius: 17px;
+    }
+
+    #form_store_contact > div.modal-body > div > table > tbody > tr > td > span {
+        color: #000000 !important;
+        margin-left: 0px !important;
+    }
+    /* #storeContact > div {
+        position: relative;
+        width: auto;
+        margin: 2.5rem;
+        pointer-events: none;
+    } */
+
+    body > nav > div > a {
+        margin-left: 20px;
+    }
+
+    body > div.page-body.m-b-50 > div > div > div > div.col-sm-12.tabs-mobile > div > div {
+        margin-top: 35px;
+        margin-left: 0px;
+    }
+
+    #collapsibleNavbar {
+        margin-left: 0% !important;
+        padding-bottom: 0px !important;
+    }
+
+    body > div.profile-page.tx-13.m-b-50 {
+        margin-bottom: 0px !important;
+    }
+
+    .tabs-desktop,
+    .store-desktop,
+    .interchange-desktop,
+    .btn-whatsapp-profile{
+        display: none;
+    }
+
+    .tabs-mobile {
+        /* display: inline-block; */
+        /* text-align: center; */
+        margin-left: 0%;
+    }
+
+    #pills-icontabContent > div.tab-pane.fade.show.active {
+        font-size: 20px;
+        color: #231F20;
+        line-height: 2;
+    }
+
+    #pills-icontabContent > div.tab-pane.fade.show.active > div > label > h4 {
+        color: #707070;
+    }
+
+    p.white-space {
+        /* white-space: pre-line;
+        word-break: break-all; */
+        word-break: break-word;
+        color: #000000;;
+        font-size: 22px !important;
+        margin-bottom: 0px !important;
+        font-family: 'BrandonGrotesque-Light' !important;
+        font-weight: bold;
+    }
+
+    #pills-icontabContent > div.tab-pane.fade.show.active > div {
+        margin-top: 20px;
+    }
+
+    #pills-icontab > li > a {
+        font-size: 12px;
+    }
+    #pills-icontab > li:nth-child(4) {
+        margin-left: 23px;
+        width: 36%;
+    }
+
+    #pills-icontab > li:nth-child(5) {
+        width: 55%;
+    }
+    .nav {
+        display: flex;
+        text-align: center;
+        border-bottom: none;
+    }
+
+
+    .nav i {
+        margin-right: 0px;
+    }
+
+    .nav-pills li {
+        width: 32%;
+    }
+
+
+    #collapsibleNavbar > ul.nav-menus.d-flex > li {
+        position: relative;
+        text-align: center;
+        display: block;
+        margin: auto;
+    }
+
+    .dropdown .dropdown-toggle {
+        background-color: rgb(35 31 32);
+        color: #fff;
+        border-radius: 10px;
+        padding: 5px 10px;
+        text-align: center;
+    }
+
+    #collapsibleNavbar > ul.nav-menus.d-flex > li > ul {
+        inset: 67px auto auto 30px !important;
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+    }
+
+    .company-logo {
+        top: 62%;
+        left: 62%;
+        border-radius: 50%;
+        display: block;
+        margin: auto;
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        z-index: 1;
+        object-fit: cover;
+    }
+
+    .profile-page .profile-header .cover .cover-body .profile-pic {
+        border-radius: 50%;
+        height: 230px;
+        width: 230px;
+        display: block;
+        margin: auto;
+        left: 0px;
+        z-index: 1;
+        object-fit: cover;
+        border: 1px solid;
+    }
+
+    #collapseOne > div > div.row {
+        margin-top: 7%;
+    }
+
+    #collapseOne > div.accordion-body {
+    padding: 1rem 1.25rem;
+    }
+
+    #collapseTwo > div.accordion-body {
+        padding: 1rem 1.25rem !important;
+    }
+
+    #collapseTwo > div > div.row {
+        margin-top: 7%;
+    }
+
+    #collapseTwo > div > div.row > label {
+        margin-bottom: 0px;
+    }
+
+    #collapseThree > div > div > p > a:nth-child(9) {
+        word-break: normal;
+        white-space: normal;
+        /* line-height: 0.5 !important; */
+    }
+
+    #collapseThree > div > div > p {
+        line-height: 2 !important;
+    }
+    #collapseThree > div > div > label {
+        margin-bottom: 0px;
+    }
+
+    #collapseThree > div {
+        padding: 8% 1.25rem;
+    }
+
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div.cover-body.d-flex.justify-content-between.align-items-center > div > div > div.col-8.col-sm-6 {
+        width: 100%;
+    }
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div.cover-body.d-flex.justify-content-between.align-items-center > div > div > div > h1 {
+        font-size: 40px;
+        font-weight: 600;
+        text-align: center;
+        width: 100%;
+        font-family: 'BrandonGrotesque-Black' !important;
+    }
+
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div.cover-body.d-flex.justify-content-between.align-items-center > div > div > p {
+        font-size: 18px;
+        padding: 0px !important;
+        color: #fff;
+        margin-top: 10px;
+        font-weight: bold;
+        font-family: 'BrandonGrotesque-Light' !important;
+    }
+
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div.cover-body.d-flex.justify-content-between.align-items-center > div > div > p > span,
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div.cover-body.d-flex.justify-content-between.align-items-center > div > div > p > a {
+        font-weight: 100 !important;
+    }
+
+    /* body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div.cover-body.d-flex.justify-content-between.align-items-center > div > div > p > a:nth-child(3) {
+        text-decoration: unset;
+        color: #fff;
+        word-break: break-all !important;
+    } */
+
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div.cover-body.d-flex.justify-content-between.align-items-center > div > div > p > a:nth-child(5){
+        text-decoration: unset;
+        color: #fff;
+        word-break: break-word !important;
+    }
+
+    .navbar-photo{
+        margin-right: 0px !important;
+    }
+
+    .btn-store-contact{
+        margin-bottom: 0px !important;
+    }
+
+    .navbar-actions{
+        display: flex;
+        margin-bottom: 5px;
+    }
+
+    .navbar-logo{
+        display: none;
+    }
+
+    .navbar-mobile{
+        font-size: 26px;
+        display: block;
+        white-space: normal;
+        word-break: break-all;
+        color: #000000 !important;
+        text-align: center;
+        font-weight: 600;
+    }
+
+    .navbar-info{
+        display: none;
+    }
+
+    .btn-presentation{
+        display: block;
+    }
+
+
+
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div.cover-body.d-flex.justify-content-between.align-items-center > div > div > div:nth-child(2) > table {
+        display: none;
+    }
+
+
+    body > div.page-body.m-b-50 > div > div > div > div.col-sm-12.tabs-mobile > div.col-xs-3.col-md-3.col-sm-3.col-xl-3.border-left.presentation > div > div > button {
+        background: #3C89FF;
+        color: #fff;
+        font-size: 14px;
+        border-radius: 10px;
+    }
+
+    body > div.page-body.m-b-50 > div > div > div > div.col-sm-12.tabs-mobile > div.col-xs-3.col-md-3.col-sm-3.col-xl-3.border-left.presentation > div > div > p {
+        font-size: 23px;
+    }
+
+    body > div.page-body.m-b-50 > div > div > div > div.col-sm-12.tabs-mobile > div.col-xs-3.col-md-3.col-sm-3.col-xl-3.border-left.presentation > div > div {
+        margin-top: 60%;
+    }
+
+    #pills-adicionales > div > div {
+        font-size: 15px;
+        white-space: inherit;
+        word-break: break-all;
+    }
+
+    body > footer > div > div:nth-child(3) > div {
+        width: 202px;
+        margin: auto;
+        display: block;
+        align-items: center;
+        text-align: center !important;
+    }
+
+    body > footer > div > div:nth-child(3) > div > a:nth-child(2) > img {
+        width: 8%;
+        margin-right: 7px;
+    }
+
+    body > footer > div > div:nth-child(3) > div > a > img{
+        width: 12%;
+        margin-right: 7px;
+    }
+
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div > div > div > p > a.btn.btn-icon-text.btn-store-contact{
+        background: #3C82FF;
+        color: #FFF;
+        font-size: 13px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        border-radius: 25px;
+        font-weight: 900;
+        font-family: 'BrandonGrotesque-Black' !important;
+        -webkit-appearance: none !important;
+        -webkit-border-radius: 25px !important;
+        -moz-border-radius: 25px !important;
+        -webkit-padding-top: 8px;
+        -webkit-padding-bottom: 8px;
+        -moz-border-padding-top: 8px;
+        -moz-border-padding-bottom: 8px;
+        margin-top: 30px;
+    }
+
+    html:lang(en) > body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div > div > div > p > a.btn.btn-icon-text.btn-store-contact{
+        width: 185px !important;
+    }
+
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div > div > div > p > a.btn.btn-icon-text.btn-interchange-contact{
+        margin-top: 3.5%;
+        margin-bottom: 2.4%;
+        background: #3C82FF;
+        color: #FFF;
+        border-radius: 25px;
+        font-size: 13px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        font-weight: 900;
+        font-family: 'BrandonGrotesque-Black' !important;
+        -webkit-appearance: none !important;
+        -webkit-border-radius: 25px !important;
+        -moz-border-radius: 25px !important;
+        -webkit-padding-top: 8px;
+        -webkit-padding-bottom: 8px;
+        -moz-border-padding-top: 8px;
+        -moz-border-padding-bottom: 8px;
+    }
+
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div.cover-body.d-flex.justify-content-between.align-items-center > div > div > p > a.btn.btn-icon-text.btn-whatsapp-profile-mobile{
+        margin-top: 5px;
+        background: #3C82FF;
+        color: #FFF;
+        border-radius: 25px;
+        font-size: 13px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        font-weight: 900;
+        width:60%;
+        max-width: 60%;
+        text-transform: uppercase;
+        font-family: 'BrandonGrotesque-Black' !important;
+        -webkit-appearance: none !important;
+        -webkit-border-radius: 25px !important;
+        -moz-border-radius: 25px !important;
+        -webkit-padding-top: 8px;
+        -webkit-padding-bottom: 8px;
+        -moz-border-padding-top: 8px;
+        -moz-border-padding-bottom: 8px;
+    }
+
+    button.accordion-button {
+        text-align: center !important;
+        background: #fff;
+        color: #3C82FF !important;
+        border-color: #3C82FF !important;
+        border-radius: 25px !important;
+        text-transform: uppercase;
+        font-family: 'BrandonGrotesque-Black' !important;
+    }
+
+    .accordion-button.collapsed {
+        border-bottom-width: thin !important;
+    }
+
+    .accordion-button:not(.collapsed) {
+        color: #fff !important;
+        background-color: #3C82FF;
+    }
+
+    .accordion-button:not(.collapsed)::after,
+    .accordion-button::after {
+        background-color: #fff !important;
+        border-radius: 25px;
+    }
+
+    .accordion-button:focus {
+        z-index: 3;
+        /* border-color: #86b7fe; */
+        border-color: none !important;
+        outline: 0;
+        -webkit-box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%);
+        box-shadow: none;
+    }
+    /* BORDER DE ANCHURA */
+    .accordion-collapse {
+        border: solid rgb(0 0 0 / 4%);
+        border-width: 0 1px;
+    }
+
+    body > div.page-body.m-b-50 {
+        margin-bottom: -25px !important;
+    }
+
+
+    #storeContact > div > div > div, #interChangeContact > div > div > div {
+        background: #231F20;
+        color: #fff !important;
+        border-radius: 17px;
+    }
+
+    #form_store_contact > div.modal-body > div > table > tbody > tr > td > span {
+        color: #000000 !important;
+        margin-left: 0px !important;
+    }
+
+    #form_store_contact > div.modal-footer.center-content > div > button{
+        background: #3C82FF;
+        color: #fff;
+        border-radius: 15px !important;
+        text-transform: uppercase;
+        font-size: 12px;
+        font-weight: 400;
+        padding: 8px 30px;
+        /* position: absolute;
+        top: 94%;
+        left: 27%; */
+    }
+    button#btn-send-success {
+        background: #3C82FF;
+        color: #fff;
+        border-radius: 15px !important;
+        text-transform: uppercase;
+        font-size: 12px;
+        font-weight: 400;
+        padding: 8px 30px;
+        /* position: absolute;
+        top: 95%;
+        left: 21%; */
+    }
+
+    #form_store_contact > div.modal-footer.center-content {
+        border: none;
+    }
+
+    #form_store_contact > div.modal-body > div > table > tbody > tr:nth-child(2n+2) > td {
+        background: #F6F6F6;
+        border-radius: 25px;
+        width: 40%;
+        padding: 4px 10px 4px 20px;
+    }
+
+    #form_interchange > div.modal-body > div > div > input {
+        background: #F6F6F6;
+        border-radius: 25px;
+        border: 1px solid #F6F6F6;
+        margin-bottom: 9px;
+        height: 44px;
+    }
+
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div > div > div.row.main {
+        margin-top: 12%;
+        margin-bottom: 5%;
+    }
+
+}
+
+@media (min-width: 393px) and (max-width: 767px) {
+    /* body{
+        background: #00c3ff;
+    } */
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div > a {
+        position: absolute;
+        right: 4%;
+        display: flex;
+        margin: auto;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: 'BrandonGrotesque-Black';
+        /* top: 6%; */
+        top: 1%;
+        width: 100px;
+    }
+
+    table.table-info-desktop {
+        display: none;
+    }
+
+    table.table-info-mobile {
+        display: block;
+    }
+
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div > div > div > div.col-lg-5.col-md-12.col-sm-12.col-xs-12{
+        margin-top: 10%;
+    }
+
+    .info-desktop {
+        display: none;
+    }
+
+    .info-mobile {
+        display: inline-block;
+    }
+
+
+    h4 {
+        font-size: 19px;
+    }
+
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div.cover-body.d-flex.justify-content-between.align-items-center > div > div > p {
+        display: block;
+    }
+
+
+    .navbar-nav .nav-item .nav-link {
+        font-size: 13px;
+        padding: 7px 20px;
+        color: #E6E6E6;
+    }
+
+    body > nav > div > div.navbar-collapse.collapse:not(.show) {
+        display: inherit;
+        position: absolute;
+        left: -5%;
+        top: 30%;
+    }
+
+    #select-information {
+        appearance: auto !important;
+        background: #5580C1;
+        color: #fff;
+        border-radius: 25px;
+        padding: 15px 0px 15px 11px;
+    }
+
+    /* #storeContact > div {
+        position: relative;
+        width: auto;
+        margin: 2.5rem;
+        pointer-events: none;
+    } */
+
+    body > nav > div > a {
+        margin-left: 20px;
+    }
+
+    body > div.page-body.m-b-50 > div > div > div > div.col-sm-12.tabs-mobile > div > div {
+        margin-top: 35px;
+        margin-left: 0px;
+    }
+
+    #collapsibleNavbar {
+        margin-left: 0% !important;
+        padding-bottom: 0px !important;
+    }
+
+    body > div.profile-page.tx-13.m-b-50 {
+        margin-bottom: 0px !important;
+    }
+
+    .tabs-desktop,
+    .store-desktop,
+    .interchange-desktop,
+    .btn-whatsapp-profile{
+        display: none;
+    }
+
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div > div > p{
+        font-size: 16px;
+        color: #fff;
+        margin-top: 10px;
+        font-weight: bold !important;
+        font-family: 'BrandonGrotesque-Light' !important;
+    }
+
+    .tabs-mobile {
+        /* display: inline-block; */
+        /* text-align: center; */
+        margin-left: 0%;
+    }
+
+    #pills-icontabContent > div.tab-pane.fade.show.active {
+        font-size: 20px;
+        color: #231F20;
+        line-height: 2;
+    }
+
+    #pills-icontabContent > div.tab-pane.fade.show.active > div > label > h4 {
+        color: #707070;
+    }
+
+    p.white-space {
+        word-break: break-word;
+        color: #000000;;
+        font-size: 22px !important;
+        margin-bottom: 0px !important;
+        font-family: 'BrandonGrotesque-Light' !important;
+        font-weight: bold;
+    }
+
+    #pills-icontabContent > div.tab-pane.fade.show.active > div {
+        margin-top: 20px;
+    }
+
+    #pills-icontab > li > a {
+        font-size: 12px;
+    }
+    #pills-icontab > li:nth-child(4) {
+        margin-left: 23px;
+        width: 36%;
+    }
+
+    #pills-icontab > li:nth-child(5) {
+        width: 55%;
+    }
+    .nav {
+        display: flex;
+        text-align: center;
+        border-bottom: none;
+    }
+
+
+    .nav i {
+        margin-right: 0px;
+    }
+
+    .nav-pills li {
+        width: 32%;
+    }
+
+
+    #collapsibleNavbar > ul.nav-menus.d-flex > li {
+        position: relative;
+        text-align: center;
+        display: block;
+        margin: auto;
+    }
+
+    .dropdown .dropdown-toggle {
+        background-color: rgb(35 31 32);
+        color: #fff;
+        border-radius: 10px;
+        padding: 5px 10px;
+        text-align: center;
+    }
+
+    #collapsibleNavbar > ul.nav-menus.d-flex > li > ul {
+        inset: 67px auto auto 30px !important;
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+    }
+
+    .company-logo {
+        top: 59%;
+        left: 60%;
+        border-radius: 50%;
+        display: block;
+        margin: auto;
+        position: absolute;
+        z-index: 1;
+        object-fit: cover;
+    }
+
+    .profile-page .profile-header .cover .cover-body .profile-pic {
+        border-radius: 50%;
+        height: 230px;
+        width: 230px;
+        display: block;
+        margin: auto;
+        z-index: 1;
+        object-fit: cover;
+        border: 1px solid;
+    }
+
+    #collapseOne > div > div.row {
+        margin-top: 7%;
+    }
+
+    #collapseOne > div.accordion-body {
+    padding: 1rem 1.25rem;
+    }
+
+    #collapseTwo > div.accordion-body {
+        padding: 1rem 1.25rem !important;
+    }
+
+    #collapseTwo > div > div.row {
+        margin-top: 7%;
+    }
+
+    #collapseTwo > div > div.row > label {
+        margin-bottom: 0px;
+    }
+
+    #collapseThree > div > div > p > a:nth-child(9) {
+        word-break: normal;
+        white-space: normal;
+    }
+
+    #collapseThree > div > div > p {
+        line-height: 2 !important;
+    }
+    #collapseThree > div > div > label {
+        margin-bottom: 0px;
+    }
+
+    #collapseThree > div {
+        padding: 8% 1.25rem;
+    }
+
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div.cover-body.d-flex.justify-content-between.align-items-center > div > div > div.col-8.col-sm-6 {
+        width: 100%;
+    }
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div.cover-body.d-flex.justify-content-between.align-items-center > div > div > div > h1 {
+        font-size: 45px;
+        font-weight: 600;
+        width: 100%;
+        position: relative;
+        font-family: 'BrandonGrotesque-Black' !important;
+    }
+
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div.cover-body.d-flex.justify-content-between.align-items-center > div > div > p {
+        font-size: 25px;
+        padding: 0px !important;
+        color: #fff;
+        margin-top: 10px;
+        font-weight: bold !important;
+        font-family: 'BrandonGrotesque-Light' !important;
+    }
+
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div.cover-body.d-flex.justify-content-between.align-items-center > div > div > p > span,
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div.cover-body.d-flex.justify-content-between.align-items-center > div > div > p > a {
+        font-weight: 100 !important;
+    }
+
+    /* body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div.cover-body.d-flex.justify-content-between.align-items-center > div > div > p > a:nth-child(3) {
+        text-decoration: unset;
+        color: #fff;
+    } */
+
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div.cover-body.d-flex.justify-content-between.align-items-center > div > div > p > a:nth-child(5){
+        text-decoration: unset;
+        color: #fff;
+        word-break: break-word !important;
+    }
+
+
+    .navbar-photo{
+        margin-right: 0px !important;
+    }
+
+    .btn-store-contact{
+        margin-bottom: 0px !important;
+    }
+
+    .navbar-actions{
+        display: flex;
+        margin-bottom: 5px;
+    }
+
+    .navbar-logo{
+        display: none;
+    }
+
+    .navbar-mobile{
+        font-size: 26px;
+        display: block;
+        white-space: normal;
+        word-break: break-all;
+        color: #000000 !important;
+        text-align: center;
+        font-weight: 600;
+    }
+
+    .navbar-info{
+        display: none;
+    }
+
+    .btn-presentation{
+        display: block;
+    }
+
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div.cover-body.d-flex.justify-content-between.align-items-center > div > div > div:nth-child(2) > table {
+        display: none;
+    }
+
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div.cover-body.d-flex.justify-content-between.align-items-center > div > div > div:nth-child(5) > a {
+        background: #000000;
+        border-radius: 25px;
+        color: #fff;
+        font-size: 12px !important;
+        margin-left: 8px;
+        margin-right: 16px;
+        padding: 20px !important;
+        width: 218px;
+        margin-bottom: 0px;
+        margin-top: 17%;
+    }
+
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div.cover-body.d-flex.justify-content-between.align-items-center > div > div > div:nth-child(6) > a {
+        background: #000000;
+        border-radius: 25px;
+        color: #fff;
+        font-size: 12px !important;
+        margin-left: 8px;
+        margin-right: 16px;
+        padding: 20px !important;
+        width: 220px;
+        margin-bottom: 0px;
+        margin-top: 12%;
+    }
+
+    body > div.page-body.m-b-50 > div > div > div > div.col-sm-12.tabs-mobile > div.col-xs-3.col-md-3.col-sm-3.col-xl-3.border-left.presentation > div {
+        border: none !important;
+        height: 100%;
+        border-radius: initial;
+        /* background-color: #232021; */
+        color: #Fff;
+        background: url(../images/obten-una-tarjeta.jpg);
+        background-position: initial;
+        background-size: cover;
+    }
+
+    body > div.page-body.m-b-50 > div > div > div > div.col-sm-12.tabs-mobile > div.col-xs-3.col-md-3.col-sm-3.col-xl-3.border-left.presentation > div > div > button {
+        background: #3C89FF;
+        color: #fff;
+        font-size: 14px;
+        border-radius: 10px;
+    }
+
+    body > div.page-body.m-b-50 > div > div > div > div.col-sm-12.tabs-mobile > div.col-xs-3.col-md-3.col-sm-3.col-xl-3.border-left.presentation > div > div > p {
+        font-size: 23px;
+    }
+
+    body > div.page-body.m-b-50 > div > div > div > div.col-sm-12.tabs-mobile > div.col-xs-3.col-md-3.col-sm-3.col-xl-3.border-left.presentation > div > div {
+        margin-top: 60%;
+    }
+
+    #pills-adicionales > div > div {
+        font-size: 15px;
+        white-space: inherit;
+        word-break: break-all;
+    }
+
+    body > footer > div > div:nth-child(3) > div {
+        width: 202px;
+        margin: auto;
+        display: block;
+        align-items: center;
+        text-align: center !important;
+    }
+
+    body > footer > div > div:nth-child(3) > div > a:nth-child(2) > img {
+        width: 8%;
+        margin-right: 7px;
+    }
+
+    body > footer > div > div:nth-child(3) > div > a > img{
+        width: 12%;
+        margin-right: 7px;
+    }
+
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div > div > div > p > a.btn.btn-icon-text.btn-store-contact{
+        background: #3C82FF;
+        color: #FFF;
+        font-size: 12px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        border-radius: 25px;
+        font-weight: 900;
+        font-family: 'BrandonGrotesque-Black' !important;
+        /* width: 170px; */
+        width:60%;
+        max-width: 60%;
+        -webkit-appearance: none !important;
+        -webkit-border-radius: 25px !important;
+        -moz-border-radius: 25px !important;
+        -webkit-padding-top: 8px;
+        -webkit-padding-bottom: 8px;
+        -moz-border-padding-top: 8px;
+        -moz-border-padding-bottom: 8px;
+        margin-top:10%;
+    }
+
+    /* html:lang(en) > body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div > div > div > p > a.btn.btn-icon-text.btn-store-contact{
+        padding-top: 18px;
+        padding-bottom: 18px;
+        -webkit-padding-top: 18px;
+        -webkit-padding-bottom: 18px;
+        -moz-border-padding-top: 18px;
+        -moz-border-padding-bottom: 18px;
+    } */
+
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div > div > div > p > a.btn.btn-icon-text.btn-interchange-contact{
+        background: #3C82FF;
+        color: #FFF;
+        border-radius: 25px;
+        /* width: 170px; */
+        width:60%;
+        max-width: 60%;
+        font-size: 12px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        font-weight: 900;
+        font-family: 'BrandonGrotesque-Black' !important;
+        -webkit-appearance: none !important;
+        -webkit-border-radius: 25px !important;
+        -moz-border-radius: 25px !important;
+        -webkit-padding-top: 8px;
+        -webkit-padding-bottom: 8px;
+        -moz-border-padding-top: 8px;
+        -moz-border-padding-bottom: 8px;
+        /* margin-top:10%; */
+        margin-top: 3.5%;
+        margin-bottom: 2.5%;
+    }
+
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div.cover-body.d-flex.justify-content-between.align-items-center > div > div > p > a.btn.btn-icon-text.btn-whatsapp-profile-mobile{
+        background: #3C82FF;
+        color: #FFF;
+        border-radius: 25px;
+        font-size: 13px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        font-weight: 900;
+        width:60%;
+        max-width: 60%;
+        text-transform: uppercase;
+        font-family: 'BrandonGrotesque-Black' !important;
+        -webkit-appearance: none !important;
+        -webkit-border-radius: 25px !important;
+        -moz-border-radius: 25px !important;
+        -webkit-padding-top: 8px;
+        -webkit-padding-bottom: 8px;
+        -moz-border-padding-top: 8px;
+        -moz-border-padding-bottom: 8px;
+    }
+
+
+
+    button.accordion-button {
+        text-align: center !important;
+        background: #fff;
+        color: #3C82FF !important;
+        border-color: #3C82FF !important;
+        border-radius: 25px !important;
+        text-transform: uppercase;
+        font-family: 'BrandonGrotesque-Black' !important;
+    }
+
+    .accordion-button.collapsed {
+        border-bottom-width: thin !important;
+    }
+
+    .accordion-button:not(.collapsed) {
+        color: #fff !important;
+        background-color: #3C82FF;
+    }
+
+    .accordion-button:not(.collapsed)::after,
+    .accordion-button::after {
+        background-color: #fff !important;
+        border-radius: 25px;
+    }
+
+    .accordion-button:focus {
+        z-index: 3;
+        /* border-color: #86b7fe; */
+        border-color: none !important;
+        outline: 0;
+        -webkit-box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%);
+        box-shadow: none;
+    }
+    /* BORDER DE ANCHURA */
+    .accordion-collapse {
+        border: solid rgb(0 0 0 / 4%);
+        border-width: 0 1px;
+    }
+
+    body > div.page-body.m-b-50 {
+        margin-bottom: -25px !important;
+    }
+
+
+    #storeContact > div > div > div, #interChangeContact > div > div > div {
+        background: #231F20;
+        color: #fff !important;
+        border-radius: 17px;
+    }
+
+    #form_store_contact > div.modal-body > div > table > tbody > tr > td > span {
+        color: #000000 !important;
+        margin-left: 0px !important;
+    }
+
+    #form_store_contact > div.modal-footer.center-content > div > button{
+        background: #3C82FF;
+        color: #fff;
+        border-radius: 15px !important;
+        text-transform: uppercase;
+        font-size: 12px;
+        font-weight: 400;
+        padding: 8px 30px;
+        /* position: absolute;
+        top: 94%;
+        left: 27%; */
+    }
+    button#btn-send-success {
+        background: #3C82FF;
+        color: #fff;
+        border-radius: 15px !important;
+        text-transform: uppercase;
+        font-size: 12px;
+        font-weight: 400;
+        padding: 8px 30px;
+        /* position: absolute;
+        top: 95%;
+        left: 21%; */
+    }
+
+    #form_store_contact > div.modal-footer.center-content {
+        border: none;
+    }
+
+    #form_store_contact > div.modal-body > div > table > tbody > tr:nth-child(2n+2) > td {
+        background: #F6F6F6;
+        border-radius: 25px;
+        width: 40%;
+        padding: 4px 10px 4px 20px;
+    }
+
+    #form_interchange > div.modal-body > div > div > input {
+        background: #F6F6F6;
+        border-radius: 25px;
+        border: 1px solid #F6F6F6;
+        margin-bottom: 9px;
+        height: 44px;
+    }
+
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div > div > div.row.main {
+        margin-top: 12%;
+        margin-bottom: 5%;
+    }
+
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div {
+        background-repeat: no-repeat;
+        object-fit: cover;
+        object-position: center center;
+        max-width: 100%;
+    }
+
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div {
+        background-size: 100%;
+    }
+
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div.default {
+        background-size: 100% 100%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div {
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div.cover-body.d-flex.justify-content-between.align-items-center > div > div > div:nth-child(2) > table {
+        color: #FFF;
+        font-weight: 400;
+        font-size: 18px;
+        font-weight: 900;
+        margin-left: 55%;
+    }
+
+    body > div.page-body.m-b-50 > div > div > div.content-main-gonet {
+        margin: auto !important;
+    }
+
+    #storeContact > div > div > div, #interChangeContact > div > div > div {
+        background: #231F20;
+        color: #fff !important;
+        border-radius: 17px;
+    }
+
+    #form_store_contact > div.modal-body > div > table > tbody > tr > td > span {
+        color: #000000 !important;
+        margin-left: 0px !important;
+    }
+
+    #form_store_contact > div.modal-footer.center-content {
+        border: none;
+    }
+
+    #form_store_contact > div.modal-body > div > table > tbody > tr:nth-child(2n+2) > td {
+        background: #F6F6F6;
+        border-radius: 25px;
+        width: 40%;
+        padding: 4px 10px 4px 20px;
+    }
+
+    table.table-info-desktop {
+        display: none;
+    }
+
+    table.table-info-mobile {
+        display: block;
+    }
+
+    /* .info-desktop,
+    .store-desktop,
+    .interchange-desktop {
+        display: none;
+    } */
+
+    .info-desktop {
+        display: inline-block;
+    }
+
+    /* .info-mobile {
+        display: inline-block !important;
+        font-size: 22px;
+        color: #fff;
+        margin-top: 10px;
+        font-weight: bold !important;
+        font-family: 'BrandonGrotesque-Light' !important;
+        margin-left: 20% !important;
+    } */
+
+
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div > div > div.row.main {
+        margin-top: 15%;
+        margin-bottom: 5%;
+    }
+
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div > div > div > div.col-lg-5.col-md-12.col-sm-12.col-xs-12 > a.btn.btn-icon-text.btn-store-contact.store-desktop {
+        background: #3C82FF;
+        color: #FFF;
+        border-radius: 25px;
+        font-size: 11px !important;
+        width: 220px;
+        margin-bottom: 0px;
+        font-weight: 700;
+        margin-top: 6%;
+        padding-bottom: 13px;
+        padding-top: 13px;
+        margin-left: 55%;
+    }
+
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div > div > div > div.col-lg-5.col-md-12.col-sm-12.col-xs-12 > a.btn.btn-icon-text.btn-interchange-contact.interchange-desktop {
+        background: #3C82FF;
+        color: #FFF;
+        border-radius: 25px;
+        font-size: 11px !important;
+        padding-bottom: 13px;
+        padding-top: 13px;
+        width: 220px;
+        margin-bottom: 0px;
+        margin-top: 2%;
+        font-weight: 700;
+        margin-left: 55%;
+    }
+
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div.cover-body.d-flex.justify-content-between.align-items-center > div > div > div.col-lg-5.col-md-12.col-sm-12.col-xs-12 > a.btn.btn-icon-text.btn-whatsapp-profile{
+        background: #3C82FF;
+        color: #FFF;
+        border-radius: 25px;
+        font-size: 11px !important;
+        padding-bottom: 13px;
+        padding-top: 13px;
+        width: 220px;
+        margin-bottom: 0px;
+        margin-top: 2%;
+        font-weight: 700;
+        margin-left: 55%;
+        text-transform: uppercase;
+    }
+
+
+    /* body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div > div > div > div {
+        margin-left: 8%;
+    } */
+
+    .company-logo {
+        position: absolute;
+        left: 204px;
+        top: 110px;
+        right: 0px;
+        z-index: 1;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div.cover-body.d-flex.justify-content-between.align-items-center > div > div > div.col-8.col-sm-6 {
+        margin-left: 2%;
+        margin-top: -30px;
+    }
+
+    .tabs-desktop{
+        display: flex;
+        margin-top:0px;
+        margin-bottom: 20px;
+    }
+
+    .tabs-mobile{
+        display: none;
+    }
+
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div.cover-body.d-flex.justify-content-between.align-items-center > div > div.col-md-2.navbar-actions > a.btn.btn-icon-text.btn-store-contact {
+        font-size: 15px !important;
+        margin-left: 0px !important;
+        margin-right: 8px !important;
+    }
+
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div.cover-body.d-flex.justify-content-between.align-items-center > div > div.col-md-2.navbar-actions > a:nth-child(2) {
+        font-size: 15px !important;
+        padding: 8px !important;
+        height: 52px !important;
+        margin-top: 9px !important;
+    }
+
+    .profile-page .profile-header .cover .cover-body .profile-pic {
+        border-radius: 50%;
+        border: none;
+        position: absolute;
+        top: -45px;
+        object-fit: cover !important;
+        border: 1px solid;
+    }
+
+    .navbar-info{
+        display: inline;
+    }
+
+    .info-user{
+        margin-top: 21px;
+        font-size:18px
+    }
+
+    .profile-page .profile-header .cover .cover-body .profile-name {
+        font-size: 35px;
+        font-weight: 600;
+        line-height: 0.9;
+        /* margin-left: 50px; */
+    }
+
+
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div.cover-body.d-flex.justify-content-between.align-items-center > div > div.col-md-2.navbar-actions > a:nth-child(2) {
+        font-size: 12px !important;
+        /* padding: 3px; */
+        height: 38px !important;
+    }
+
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div.cover-body.d-flex.justify-content-between.align-items-center > div > div > div.col-8.col-sm-6 > div > div:nth-child(2) > a{
+        background: #3C82FF;
+        color: #FFF;
+        border-radius: 25px;
+        font-size: 11px !important;
+        width: 191px;
+        margin-bottom: 0px;
+        font-weight: 700;
+        margin-top: 10%;
+        /* margin-left: 390px; */
+        padding-bottom: 13px;
+        padding-top: 13px;
+
+    }
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div.cover-body.d-flex.justify-content-between.align-items-center > div > div > div.col-8.col-sm-6 > div > div:nth-child(3) > a{
+        background: #3C82FF;
+        color: #FFF;
+        border-radius: 25px;
+        font-size: 11px !important;
+        padding-bottom: 13px;
+        padding-top: 13px;
+        width: 228px;
+        margin-bottom: 0px;
+        margin-top: 10%;
+        font-weight: 700;
+        margin-left: -7%;
+    }
+
+    /* body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div.cover-body.d-flex.justify-content-between.align-items-center > div > div.col-md-2.navbar-actions > a.btn.btn-icon-text.btn-store-contact {
+        background: #3c89ff;
+        border-radius: 25px;
+        color: #fff;
+        font-size: 13px !important;
+        margin-left: 10px;
+        margin-right: 16px;
+        padding: 8px !important;
+        width: 161px;
+        margin-bottom: 20px;
+    } */
+
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div.cover-body.d-flex.justify-content-between.align-items-center > div > div.col-md-2.navbar-actions {
+        margin-top: 20px;
+    }
+
+    body > div.profile-page.tx-13.m-b-50 > div.row > div > div > div > div.cover-body.d-flex.justify-content-between.align-items-center > div > div.col-md-2.navbar-actions > a.btn.btn-icon-text.btn-store-contact.btn-lg.btn-block.m-b-50,
+    body > div.profile-page.tx-13.m-b-50 > div.row > div > div > div > div.cover-body.d-flex.justify-content-between.align-items-center > div > div.col-md-2.navbar-actions > a:nth-child(2) {
+        background: #3C89FF;
+        color: #fff;
+        border-radius: 25px;
+        padding: 10px;
+    }
+
+    button#v-pills-personal-tab, button#v-pills-enterprise-tab, button#v-pills-contact-tab, button#v-pills-rrss-tab, button#v-pills-extras-tab,button#v-pills-qr-tab {
+        border-radius: 45px;
+        margin-top: 15px !important;
+        width: 285px !important;
+        text-align: left;
+        padding-left: 20px;
+        font-weight: 700;
+        /* border-bottom-left-radius: 0px;
+        border-top-left-radius: 0px; */
+        text-transform: uppercase;
+        line-height: 2.2;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        font-family: 'BrandonGrotesque-Black' !important;
+    }
+
+    body > footer > div > div:nth-child(3) > div > a:nth-child(2) > img {
+        width: 4%;
+        margin-right: 8px;
+    }
+
+    body > footer > div > div:nth-child(3) > div > a > img{
+        width: 6%;
+        margin-right: 8px;
+    }
+
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div.cover-body.d-flex.justify-content-between.align-items-center > div > div > div > h1 {
+        font-weight: 100 !important;
+        padding-bottom: 9px;
+        font-size: 45px;
+        font-family: 'BrandonGrotesque-Black' !important;
+        margin-left: 41% !important;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div.cover-body.d-flex.justify-content-between.align-items-center > div > div > div.col-lg-5.col-md-12.col-sm-12.col-xs-12 > a.btn.btn-icon-text.btn-whatsapp-profile{
+        margin-left: 23%;
+    }
+
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div.cover-body.d-flex.justify-content-between.align-items-center > div > div > div:nth-child(2) > table {
+        color: #FFF;
+        font-weight: 400;
+        font-size: 18px;
+        font-weight: 900;
+        margin-left: 23%;
+    }
+
+    body > div.page-body.m-b-50 > div > div > div.content-main-gonet {
+        margin: auto !important;
+    }
+
+    #storeContact > div > div > div, #interChangeContact > div > div > div {
+        background: #231F20;
+        color: #fff !important;
+        border-radius: 17px;
+    }
+
+    #form_store_contact > div.modal-body > div > table > tbody > tr > td > span {
+        color: #000000 !important;
+        margin-left: 0px !important;
+    }
+
+    #form_store_contact > div.modal-footer.center-content {
+        border: none;
+    }
+
+    #form_store_contact > div.modal-body > div > table > tbody > tr:nth-child(2n+2) > td {
+        background: #F6F6F6;
+        border-radius: 25px;
+        width: 40%;
+        padding: 4px 10px 4px 20px;
+    }
+
+    table.table-info-desktop {
+        display: none;
+    }
+
+    table.table-info-mobile {
+        display: block;
+    }
+
+    /* .info-desktop,
+    .store-desktop,
+    .interchange-desktop {
+        display: none;
+    }
+
+    .info-mobile {
+        display: inline-block !important;
+        font-size: 22px;
+        color: #fff;
+        margin-top: 10px;
+        font-weight: bold !important;
+        font-family: 'BrandonGrotesque-Light' !important;
+        margin-left: 20% !important;
+    } */
+
+    .info-desktop {
+        display: inline-block;
+    }
+
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div > div > div.row.main {
+        margin-top: 11%;
+        margin-bottom: 5%;
+    }
+
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div > div > div > div.col-lg-5.col-md-12.col-sm-12.col-xs-12 > a.btn.btn-icon-text.btn-store-contact.store-desktop {
+        background: #3C82FF;
+        color: #FFF;
+        border-radius: 25px;
+        font-size: 11px !important;
+        width: 220px;
+        margin-bottom: 0px;
+        font-weight: 700;
+        margin-top: 7%;
+        padding-bottom: 13px;
+        padding-top: 13px;
+        margin-left: 23%;
+    }
+
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div > div > div > div.col-lg-5.col-md-12.col-sm-12.col-xs-12 > a.btn.btn-icon-text.btn-interchange-contact.interchange-desktop {
+        background: #3C82FF;
+        color: #FFF;
+        border-radius: 25px;
+        font-size: 11px !important;
+        padding-bottom: 13px;
+        padding-top: 13px;
+        width: 220px;
+        margin-bottom: 0px;
+        margin-top: 1%;
+        font-weight: 700;
+        margin-left: 23%;
+    }
+
+    /* body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div > div > div > div {
+        margin-left: 8%;
+    } */
+
+    .company-logo {
+        position: absolute;
+        left: 204px;
+        top: 110px;
+        right: 0px;
+        z-index: 1;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div.cover-body.d-flex.justify-content-between.align-items-center > div > div > div.col-8.col-sm-6 {
+        margin-left: 2%;
+        margin-top: -30px;
+    }
+
+    .tabs-desktop{
+        display: flex;
+        margin-top:0px;
+        margin-bottom: 20px;
+    }
+
+    .tabs-mobile{
+        display: none;
+    }
+
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div.cover-body.d-flex.justify-content-between.align-items-center > div > div.col-md-2.navbar-actions > a.btn.btn-icon-text.btn-store-contact {
+        font-size: 15px !important;
+        margin-left: 0px !important;
+        margin-right: 8px !important;
+    }
+
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div.cover-body.d-flex.justify-content-between.align-items-center > div > div.col-md-2.navbar-actions > a:nth-child(2) {
+        font-size: 15px !important;
+        padding: 8px !important;
+        height: 52px !important;
+        margin-top: 9px !important;
+    }
+
+    .profile-page .profile-header .cover .cover-body .profile-pic {
+        border-radius: 50%;
+        border: none;
+        position: absolute;
+        top: -45px;
+        object-fit: cover !important;
+        border: 1px solid;
+
+    }
+
+    .navbar-info{
+        display: inline;
+    }
+
+    .info-user{
+        margin-top: 21px;
+        font-size:18px
+    }
+
+    .profile-page .profile-header .cover .cover-body .profile-name {
+        font-size: 35px;
+        font-weight: 600;
+        line-height: 0.9;
+        /* margin-left: 50px; */
+    }
+
+
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div.cover-body.d-flex.justify-content-between.align-items-center > div > div.col-md-2.navbar-actions > a:nth-child(2) {
+        font-size: 12px !important;
+        /* padding: 3px; */
+        height: 38px !important;
+    }
+
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div.cover-body.d-flex.justify-content-between.align-items-center > div > div > div.col-8.col-sm-6 > div > div:nth-child(2) > a{
+        background: #3C82FF;
+        color: #FFF;
+        border-radius: 25px;
+        font-size: 11px !important;
+        width: 191px;
+        margin-bottom: 0px;
+        font-weight: 700;
+        margin-top: 10%;
+        /* margin-left: 390px; */
+        padding-bottom: 13px;
+        padding-top: 13px;
+
+    }
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div.cover-body.d-flex.justify-content-between.align-items-center > div > div > div.col-8.col-sm-6 > div > div:nth-child(3) > a{
+        background: #3C82FF;
+        color: #FFF;
+        border-radius: 25px;
+        font-size: 11px !important;
+        padding-bottom: 13px;
+        padding-top: 13px;
+        width: 228px;
+        margin-bottom: 0px;
+        margin-top: 10%;
+        font-weight: 700;
+        margin-left: -7%;
+    }
+
+    /* body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div.cover-body.d-flex.justify-content-between.align-items-center > div > div.col-md-2.navbar-actions > a.btn.btn-icon-text.btn-store-contact {
+        background: #3c89ff;
+        border-radius: 25px;
+        color: #fff;
+        font-size: 13px !important;
+        margin-left: 10px;
+        margin-right: 16px;
+        padding: 8px !important;
+        width: 161px;
+        margin-bottom: 20px;
+    } */
+
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div.cover-body.d-flex.justify-content-between.align-items-center > div > div.col-md-2.navbar-actions {
+        margin-top: 20px;
+    }
+
+    body > div.profile-page.tx-13.m-b-50 > div.row > div > div > div > div.cover-body.d-flex.justify-content-between.align-items-center > div > div.col-md-2.navbar-actions > a.btn.btn-icon-text.btn-store-contact.btn-lg.btn-block.m-b-50,
+    body > div.profile-page.tx-13.m-b-50 > div.row > div > div > div > div.cover-body.d-flex.justify-content-between.align-items-center > div > div.col-md-2.navbar-actions > a:nth-child(2) {
+        background: #3C89FF;
+        color: #fff;
+        border-radius: 25px;
+        padding: 10px;
+    }
+
+    button#v-pills-personal-tab, button#v-pills-enterprise-tab, button#v-pills-contact-tab, button#v-pills-rrss-tab, button#v-pills-extras-tab,button#v-pills-qr-tab {
+        border-radius: 45px;
+        margin-top: 15px !important;
+        width: 285px !important;
+        text-align: left;
+        padding-left: 20px;
+        font-weight: 700;
+        /* border-bottom-left-radius: 0px;
+        border-top-left-radius: 0px; */
+        text-transform: uppercase;
+        line-height: 2.2;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        font-family: 'BrandonGrotesque-Black' !important;
+    }
+
+    body > footer > div > div:nth-child(3) > div > a:nth-child(2) > img {
+        width: 4%;
+        margin-right: 8px;
+    }
+
+    body > footer > div > div:nth-child(3) > div > a > img{
+        width: 6%;
+        margin-right: 8px;
+    }
+
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div.cover-body.d-flex.justify-content-between.align-items-center > div > div > div > h1 {
+        font-weight: 100 !important;
+        padding-bottom: 9px;
+        font-size: 45px;
+        font-family: 'BrandonGrotesque-Black' !important;
+        margin-left: 0% !important;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+/* @media (min-width: 1200px) and (max-width: 1400px) { */
+    /* body{
+        background: #00A3F4;
+    } */
+    body > div.page-body.m-b-50 > div > div > div.content-main-gonet {
+        margin: auto !important;
+    }
+
+    table.table-info-desktop {
+        display: block;
+    }
+
+    table.table-info-mobile {
+        display: none;
+    }
+
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div > div > div.row.main{
+        margin-top: 10%;
+        margin-bottom: 7%;
+    }
+
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div > div > div > div.col-lg-5.col-md-4.col-sm-4.col-xs-6 > a.btn.btn-icon-text.btn-store-contact{
+        background: #3C82FF;
+        color: #FFF;
+        border-radius: 25px;
+        font-size: 11px !important;
+        width: 191px;
+        margin-bottom: 0px;
+        font-weight: 700;
+        margin-top: 10%;
+        padding-bottom: 13px;
+        padding-top: 13px;
+    }
+
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div > div > div > div.col-lg-5.col-md-4.col-sm-4.col-xs-6 > a.btn.btn-icon-text.btn-interchange-contact{
+        background: #3C82FF;
+        color: #FFF;
+        border-radius: 25px;
+        font-size: 11px !important;
+        padding-bottom: 13px;
+        padding-top: 13px;
+        width: 228px;
+        margin-bottom: 0px;
+        margin-top: 10%;
+        font-weight: 700;
+        /* margin-left: -7%; */
+    }
+
+    /* body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div > div > div > div {
+        margin-left: 8%;
+    } */
+
+    .company-logo {
+        position: absolute;
+        left: 204px;
+        top: 110px;
+        right: 0px;
+        z-index: 1;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div.cover-body.d-flex.justify-content-between.align-items-center > div > div > div.col-8.col-sm-6 {
+        margin-left: 2%;
+        margin-top: -30px;
+    }
+
+    .tabs-desktop{
+        display: flex;
+        margin-top:0px;
+        margin-bottom: 20px;
+    }
+
+    .tabs-mobile{
+        display: none;
+    }
+
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div.cover-body.d-flex.justify-content-between.align-items-center > div > div.col-md-2.navbar-actions > a.btn.btn-icon-text.btn-store-contact {
+        font-size: 15px !important;
+        margin-left: 0px !important;
+        margin-right: 8px !important;
+    }
+
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div.cover-body.d-flex.justify-content-between.align-items-center > div > div.col-md-2.navbar-actions > a:nth-child(2) {
+        font-size: 15px !important;
+        padding: 8px !important;
+        height: 52px !important;
+        margin-top: 9px !important;
+    }
+
+    .profile-page .profile-header .cover .cover-body .profile-pic {
+        border-radius: 50%;
+        border: none;
+        position: absolute;
+        top: -45px;
+        object-fit: cover !important;
+        border: 1px solid;
+    }
+
+    .navbar-info{
+        display: inline;
+    }
+
+    .info-user{
+        margin-top: 21px;
+        font-size:18px
+    }
+
+    .profile-page .profile-header .cover .cover-body .profile-name {
+        font-size: 35px;
+        font-weight: 600;
+        line-height: 0.9;
+        /* margin-left: 50px; */
+    }
+
+
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div.cover-body.d-flex.justify-content-between.align-items-center > div > div.col-md-2.navbar-actions > a:nth-child(2) {
+        font-size: 12px !important;
+        /* padding: 3px; */
+        height: 38px !important;
+    }
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div > div > div > div.col-lg-5.col-md-12.col-sm-12.col-xs-12 > a.btn.btn-icon-text.btn-store-contact.store-desktop{
+        background: #3C82FF;
+        color: #FFF;
+        border-radius: 25px;
+        font-size: 11px !important;
+        /* width: 191px; */
+        width: 30%;
+        margin-bottom: 0px;
+        font-weight: 700;
+        margin-top: 10%;
+        padding-bottom: 13px;
+        padding-top: 13px;
+
+    }
+
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div > div > div > div.col-lg-5.col-md-12.col-sm-12.col-xs-12 > a.btn.btn-icon-text.btn-interchange-contact.interchange-desktop{
+        background: #3C82FF;
+        color: #FFF;
+        border-radius: 25px;
+        font-size: 11px !important;
+        padding-bottom: 13px;
+        padding-top: 13px;
+        margin-left: 2%;
+        margin-right: 2%;
+        /* width: 228px; */
+        width: 30%;
+        margin-bottom: 0px;
+        margin-top: 10%;
+        font-weight: 700;
+    }
+
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div.cover-body.d-flex.justify-content-between.align-items-center > div > div > div.col-lg-5.col-md-12.col-sm-12.col-xs-12 > a.btn.btn-icon-text.btn-whatsapp-profile{
+        background: #3C82FF;
+        color: #FFF;
+        border-radius: 25px;
+        font-size: 11px !important;
+        padding-bottom: 21px;
+        padding-top: 21px;
+        width: 30%;
+        margin-bottom: 0px;
+        margin-top: 10%;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    /* body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div.cover-body.d-flex.justify-content-between.align-items-center > div > div.col-md-2.navbar-actions > a.btn.btn-icon-text.btn-store-contact {
+        background: #3c89ff;
+        border-radius: 25px;
+        color: #fff;
+        font-size: 13px !important;
+        margin-left: 10px;
+        margin-right: 16px;
+        padding: 8px !important;
+        width: 161px;
+        margin-bottom: 20px;
+    } */
+
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div.cover-body.d-flex.justify-content-between.align-items-center > div > div.col-md-2.navbar-actions {
+        margin-top: 20px;
+    }
+
+    body > div.profile-page.tx-13.m-b-50 > div.row > div > div > div > div.cover-body.d-flex.justify-content-between.align-items-center > div > div.col-md-2.navbar-actions > a.btn.btn-icon-text.btn-store-contact.btn-lg.btn-block.m-b-50,
+    body > div.profile-page.tx-13.m-b-50 > div.row > div > div > div > div.cover-body.d-flex.justify-content-between.align-items-center > div > div.col-md-2.navbar-actions > a:nth-child(2) {
+        background: #3C89FF;
+        color: #fff;
+        border-radius: 25px;
+        padding: 10px;
+    }
+
+    button#v-pills-personal-tab, button#v-pills-enterprise-tab, button#v-pills-contact-tab, button#v-pills-rrss-tab, button#v-pills-extras-tab,button#v-pills-qr-tab {
+        border-radius: 45px;
+        margin-top: 15px !important;
+        width: 285px !important;
+        text-align: left;
+        padding-left: 20px;
+        font-weight: 700;
+        /* border-bottom-left-radius: 0px;
+        border-top-left-radius: 0px; */
+        text-transform: uppercase;
+        line-height: 2.2;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        font-family: 'BrandonGrotesque-Black' !important;
+    }
+
+    body > footer > div > div:nth-child(3) > div > a:nth-child(2) > img {
+        width: 4%;
+        margin-right: 8px;
+    }
+
+    body > footer > div > div:nth-child(3) > div > a > img{
+        width: 6%;
+        margin-right: 8px;
+    }
+
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div.cover-body.d-flex.justify-content-between.align-items-center > div > div > div > h1 {
+        font-weight: 100 !important;
+        padding-bottom: 9px;
+        font-size: 35px;
+        font-family: 'BrandonGrotesque-Black' !important;
+        text-align: unset !important;
+    }
+}
+
+@media (min-width: 1400px) {
+    /* body{
+        background: #000;
+    } */
+    body > div.page-body.m-b-50 > div > div > div.content-main-gonet {
+        margin-left: 20%;
+    }
+
+    table.table-info-desktop {
+        display: block;
+    }
+
+    table.table-info-mobile {
+        display: none;
+    }
+
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div > div > div.row.main {
+        margin-top: 7%;
+        margin-bottom: 7%;
+    }
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div > div > div > div.col-lg-4.offset-lg-2.col-md-12.col-sm-12.col-xs-12 {
+        /* margin-left: 25%; */
+        margin-right: -8%;
+    }
+    .company-logo {
+        top: 50%;
+        left: 43%;
+        border-radius: 50%;
+        display: block;
+        margin: auto;
+        position: absolute;
+        z-index: 1;
+        object-fit: cover;
+    }
+
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div.cover-body.d-flex.justify-content-between.align-items-center > div > div > div.col-8.col-sm-6 {
+        margin-left: -3%;
+        margin-top: 60px;
+    }
+
+    .tabs-desktop{
+        display: flex;
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+
+    .tabs-mobile{
+        display: none;
+    }
+
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div.cover-body.d-flex.justify-content-between.align-items-center > div > div.col-md-2.navbar-actions > a.btn.btn-icon-text.btn-store-contact {
+        font-size: 15px !important;
+        margin-left: 0px !important;
+        margin-right: 8px !important;
+    }
+
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div.cover-body.d-flex.justify-content-between.align-items-center > div > div.col-md-2.navbar-actions > a:nth-child(2) {
+        font-size: 15px !important;
+        padding: 8px !important;
+        height: 52px !important;
+        margin-top: 9px !important;
+    }
+
+    .profile-page .profile-header .cover .cover-body .profile-pic {
+        border-radius: 50%;
+        height: 250px;
+        width: 250px;
+        display: block;
+        margin: auto;
+        left: 0px;
+        z-index: 1;
+        object-fit: cover;
+        border: 1px solid;
+    }
+
+    .navbar-info{
+        display: inline;
+    }
+
+    .info-user{
+        margin-top: 21px;
+        font-size:18px
+    }
+
+    .profile-page .profile-header .cover .cover-body .profile-name {
+        font-size: 35px;
+        font-weight: 600;
+        line-height: 0.9;
+        /* margin-left: 50px; */
+    }
+
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div.cover-body.d-flex.justify-content-between.align-items-center > div > div.col-md-2.navbar-actions > a:nth-child(2) {
+        font-size: 12px !important;
+        /* padding: 3px; */
+        height: 38px !important;
+    }
+
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div.cover-body.d-flex.justify-content-between.align-items-center > div > div.col-md-2.navbar-actions {
+        margin-top: 20px;
+    }
+
+    button#v-pills-personal-tab, button#v-pills-enterprise-tab, button#v-pills-contact-tab, button#v-pills-rrss-tab, button#v-pills-extras-tab {
+        border-radius: 25px;
+        margin-top: 15px !important;
+        width: 275px !important;
+        text-align: left;
+        padding-left: 20px;
+    }
+
+    body > footer > div > div:nth-child(3) > div > a:nth-child(2) > img {
+        width: 4%;
+        margin-right: 8px;
+    }
+
+    body > footer > div > div:nth-child(3) > div > a > img{
+        width: 6%;
+        margin-right: 8px;
+    }
+
+
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div.cover-body.d-flex.justify-content-between.align-items-center > div > div > div > h1 {
+        font-weight: 100 !important;
+        padding-bottom: 9px;
+        font-size: 35px;
+        font-family: 'BrandonGrotesque-Black' !important;
+        text-align: unset !important;
+    }
+
+    button#v-pills-personal-tab, button#v-pills-enterprise-tab, button#v-pills-contact-tab, button#v-pills-rrss-tab, button#v-pills-extras-tab,button#v-pills-qr-tab {
+        border-radius: 45px;
+        margin-top: 15px !important;
+        width: 285px !important;
+        text-align: left;
+        padding-left: 20px;
+        font-weight: 700;
+        text-transform: uppercase;
+        /* border-bottom-left-radius: 0px;
+        border-top-left-radius: 0px; */
+        line-height: 2.2;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        font-family: 'BrandonGrotesque-Black' !important;
+    }
+
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div > div > div > div.col-lg-5.col-md-12.col-sm-12.col-xs-12 > a.btn.btn-icon-text.btn-store-contact.store-desktop{
+        background: #3C82FF;
+        color: #FFF;
+        border-radius: 25px;
+        font-size: 11px !important;
+        /* width: 244px; */
+        width: 28%;
+        margin-bottom: 0px;
+        font-weight: 700;
+        padding-bottom: 13px;
+        padding-top: 13px;
+        margin-top: 8%;
+
+    }
+
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div > div > div > div.col-lg-5.col-md-12.col-sm-12.col-xs-12 > a.btn.btn-icon-text.btn-interchange-contact.interchange-desktop{
+        background: #3C82FF;
+        color: #FFF;
+        border-radius: 25px;
+        font-size: 11px !important;
+        padding-bottom: 13px;
+        padding-top: 13px;
+        /* width: 244px; */
+        width: 30%;
+        margin-bottom: 0px;
+        font-weight: 700;
+        margin-top: 8%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    body > div.profile-page.tx-13.m-b-50 > div > div > div > div > div.cover-body.d-flex.justify-content-between.align-items-center > div > div > div.col-lg-5.col-md-12.col-sm-12.col-xs-12 > a.btn.btn-icon-text.btn-whatsapp-profile{
+        background: #3C82FF;
+        color: #FFF;
+        border-radius: 25px;
+        font-size: 11px !important;
+        padding-bottom: 21px;
+        padding-top: 21px;
+        width: 30%;
+        margin-bottom: 0px;
+        margin-top: 8%;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+}
+/* ------------------------------------------------------------- */
